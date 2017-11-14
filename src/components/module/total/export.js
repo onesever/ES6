@@ -1,4 +1,7 @@
 function foo() {
   console.log('foo');
 }
-export default foo
+function bar() {
+  console.log('bar')
+}
+export {foo,bar}

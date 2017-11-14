@@ -3,8 +3,19 @@
 </template>
 
 <script>
-  import ac from './import'
-  console.log(ac)
+  // 指定加载
+  //import {foo,baa} from './import.js'
+
+  // 整体加载
+  //import * as circle from './import.js'
+
+  // 默认加载
+  import abc from './import.js'
+  export default {
+    mounted(){
+      console.log(abc)
+    }
+  }
 </script>
 
 <style>

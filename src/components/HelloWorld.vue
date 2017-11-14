@@ -3,8 +3,8 @@
     <h1>{{ msg }}</h1>
     <h2>ES6</h2>
     <ul>
-      <li><router-link :to="'/Module'">Module</router-link></li>
-      <li><a href="https://forum.vuejs.org" target="_blank">Forum</a></li>
+      <li><router-link :to="'/Module'">【22章节】模块的语法</router-link></li>
+      <li><router-link :to="'/Out'">【外传】ES6的常用用法</router-link></li>
       <li><a href="https://chat.vuejs.org" target="_blank">Community Chat</a></li>
       <li><a href="https://twitter.com/vuejs" target="_blank">Twitter</a></li>
       <br>

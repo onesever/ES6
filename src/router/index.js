@@ -6,6 +6,8 @@ import Module from '@/components/module/module'
 import ModuleBase from '@/components/module/base/base'
 import ExportBase from '@/components/module/default/export-base'
 import Total from '@/components/module/total/total'
+// ES6外传
+import Out from '@/components/out/out'
 Vue.use(Router)
 
 export default new Router({
@@ -35,5 +37,10 @@ export default new Router({
       name: 'Total',
       component: Total
     },
+    {
+      path: '/Out',
+      name: 'Out',
+      component: Out
+    }
   ]
 })
