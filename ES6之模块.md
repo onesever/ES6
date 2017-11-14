@@ -1,4 +1,4 @@
-###Welcome to use ES6
+### Welcome to use ES6
 
 # 模块功能
 模块功能主要由两个命令构成：export和import。</br>
